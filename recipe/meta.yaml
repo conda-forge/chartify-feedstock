@@ -1,5 +1,5 @@
 {% set name = "chartify" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bb00d2e2fca0fcb6a211c04e4419ee289a484dc88c2d4bfb006071a3280a9c37
+  sha256: 99e76f03e9c9195697b5600ff028d61ca1263bb0ea2809a609a966797c87f1ae
 
 
 build:
@@ -22,8 +22,7 @@ requirements:
   run:
     - bokeh >=2.0.0,<3.0.0
     - colour >=0.1.5
-    - ipykernel >=5.0
-    - ipython >=7.0
+    - jupyter >=1.0.0,<2.0.0
     - pandas >=1.0.0,<2.0.0
     - pillow >=6.2.0
     - python >=3.5

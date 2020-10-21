@@ -1,5 +1,5 @@
 {% set name = "chartify" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bb00d2e2fca0fcb6a211c04e4419ee289a484dc88c2d4bfb006071a3280a9c37
+  sha256: 9bda1eb9a7454a16e79966df0d655feaf95744f2eb56c7c559f8f08fd11241a2
 
 
 build:
@@ -29,6 +29,7 @@ requirements:
     - python >=3.5
     - scipy >=1.0.0,<2.0.0
     - selenium >=3.7.0,<=3.8.0
+    - pyyaml >=5.3.1
 
 test:
   imports:

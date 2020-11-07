@@ -1,5 +1,5 @@
 {% set name = "chartify" %}
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9bda1eb9a7454a16e79966df0d655feaf95744f2eb56c7c559f8f08fd11241a2
+  sha256: 6f621a5f342fa8f143e0cedb74e4537cfaeec796331744718b4d0744ba127965
 
 
 build:

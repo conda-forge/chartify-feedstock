@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - bokeh >=2.0.0,<3.0.0
     - colour >=0.1.5
@@ -39,7 +40,7 @@ test:
 
 about:
   home: https://github.com/spotify/chartify
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   summary: Python library to make plotting simpler for data scientists
 

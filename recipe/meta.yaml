@@ -21,16 +21,17 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - bokeh >=2.0.0,<3.0.0
+    - bokeh >=3.4.2
     - colour >=0.1.5
-    - ipykernel >=5.0
-    - ipython >=7.0
-    - pandas >=1.0.0,<2.0.0
-    - pillow >=6.2.0
+    - ipykernel >=6.0
+    - ipython >=7.17.0
+    - pandas >=1.2.0
+    - pillow >=9.1.0
     - python >={{ python_min }}
-    - scipy >=1.0.0,<2.0.0
-    - selenium >=3.7.0,<=3.8.0
-    - pyyaml >=5.3.1
+    - scipy >=1.6.0
+    - selenium >=4.0.0
+    - pyyaml >=6.0.0
+    - jinja2 >=3.1.0
 
 test:
   requires:
